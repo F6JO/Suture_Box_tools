@@ -60,7 +60,7 @@ def config():
 
 if __name__ == '__main__':
     try:
-        vulmap_license() # vulmap 用户协议及免责声明
+        # vulmap_license() vulmap 用户协议及免责声明
         args = arg()  # 初始化各选项参数
         config()  # 加载全局变量
         version_check()  # 检查vulmap版本
