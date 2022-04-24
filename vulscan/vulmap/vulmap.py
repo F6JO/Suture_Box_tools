@@ -63,7 +63,7 @@ if __name__ == '__main__':
         # vulmap_license() vulmap 用户协议及免责声明
         args = arg()  # 初始化各选项参数
         config()  # 加载全局变量
-        version_check()  # 检查vulmap版本
+        # version_check()  # 检查vulmap版本
         core.control_options(args)  # 运行核心选项控制方法用于处理不同选项并开始扫描
     except KeyboardInterrupt as e:
         print(now.timed(de=0) + color.red_warn() + color.red(" Stop scanning"))
